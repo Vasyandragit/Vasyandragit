@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T21:15:59.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BwA2pBeicWwdt0RzirMX" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T11:28:26.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aTYlCn7YFAoxn5ZThDnb" version="22.1.9" type="github">
   <diagram name="Страница — 1" id="MPSTq0b5Kvx3AftmKwGk">
-    <mxGraphModel dx="1024" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1546" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
           </mxCell>
         </object>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-4" value="NULL&lt;br&gt;(end)" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="334" y="530" width="80" height="80" as="geometry" />
+          <mxGeometry x="374" y="560" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-7" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pAtN9r_TMYRA0wt5PrXm-1" target="pAtN9r_TMYRA0wt5PrXm-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -38,9 +38,6 @@
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-11" value="isalpha" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="pAtN9r_TMYRA0wt5PrXm-10">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pAtN9r_TMYRA0wt5PrXm-22" value="letter_counter += 1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="180" y="300" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-26" value="word_type" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="650" y="320" width="90" height="90" as="geometry" />
@@ -86,7 +83,8 @@
             <mxPoint x="694.71" y="320" as="sourcePoint" />
             <mxPoint x="130" y="150" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="695" y="236" />
+              <mxPoint x="690" y="320" />
+              <mxPoint x="690" y="236" />
               <mxPoint x="696" y="236" />
               <mxPoint x="696" y="151" />
               <mxPoint x="130" y="151" />
@@ -100,19 +98,19 @@
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-50" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="697" y="410" as="sourcePoint" />
-            <mxPoint x="131" y="402" as="targetPoint" />
+            <mxPoint x="697" y="408" as="sourcePoint" />
+            <mxPoint x="131" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="696" y="420" />
-              <mxPoint x="697" y="420" />
-              <mxPoint x="697" y="472" />
-              <mxPoint x="131" y="472" />
+              <mxPoint x="696" y="418" />
+              <mxPoint x="697" y="418" />
+              <mxPoint x="697" y="470" />
+              <mxPoint x="131" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-51" value="letter_counter &amp;lt;= 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pAtN9r_TMYRA0wt5PrXm-50">
           <mxGeometry x="-0.0316" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="118" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pAtN9r_TMYRA0wt5PrXm-52" value="word_counter += 1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
