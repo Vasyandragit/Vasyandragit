@@ -1,0 +1,1 @@
+lambda string: (len(string), string) 
